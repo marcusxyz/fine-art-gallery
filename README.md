@@ -1,8 +1,9 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/141EHmJXwHngPK/giphy.gif" width="100%">
 
-# Project Title
+# Fine art gallery
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+The aim of this project is to show some fine art made by various artists around the globe. 
+More information coming soon.
 
 # Installation
 
