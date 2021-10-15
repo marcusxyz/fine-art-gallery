@@ -1,0 +1,28 @@
+/* header {
+  display: flex;
+  width: 100%;
+} */
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a,
+nav p {
+  /* font-family: var(--medium); */
+  font-size: var(--p-large);
+}
+
+@media screen and (min-width: 180px) {
+  header .separator {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  header .separator {
+    margin: 5rem 0 2rem 0;
+  }
+}

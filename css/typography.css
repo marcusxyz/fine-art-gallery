@@ -1,0 +1,32 @@
+@font-face {
+  font-family: NeueHass-Light;
+  src: url(../fonts/NeueHaasDisplay-Light.woff);
+}
+
+@font-face {
+  font-family: NeueHass-Regular;
+  src: url(../fonts/NeueHaasDisplay-Roman.woff);
+}
+
+@font-face {
+  font-family: NeueHass-Medium;
+  src: url(../fonts/NeueHaasDisplay-Medium.woff);
+}
+
+@font-face {
+  font-family: NeueHass-Bold;
+  src: url(../fonts/NeueHaasDisplay-Bold.woff);
+}
+
+h1 {
+  font-size: var(--h1);
+  line-height: 1;
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
