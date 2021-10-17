@@ -15,14 +15,18 @@
     width: calc(100% - 1rem);
   }
 
-  .box p {
+  p.era {
     /* font-size: var(--p-small); */
     margin-top: 1rem;
   }
 
-  p.title {
+  div p.title {
     font-size: var(--h3);
     margin-top: 0;
+  }
+
+  p.author {
+    margin-top: 0.25rem;
   }
 
   .frame {

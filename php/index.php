@@ -1,24 +1,27 @@
 <?php require __DIR__ . ('/header.php'); ?>
+
 <section class="hero">
     <div class="hero block-1">
         <h1>
-            Berzelii Gallery
+            <?= $indexH1; ?>
+            <!-- Berzelii Gallery
             <br>
-            Dept.
+            Dept. -->
         </h1>
     </div>
     <div class="hero block-2">
         <p>
-            Fine art gallery in the heart of Gothenburg. Lorem ipsum dolor sit amet consectetur adipisicing elit, id facere quia mollitia.
+            <?= $heroDescription; ?>
         </p>
     </div>
 
-    <div class="hero block-3"></div>
     <div class="hero block-4">
-        <ul class="opening-hours">
-            <li>T: <a href="#">031 093 03 02</a></li>
-            <li>M: <a href="#">hello@gallerydept.com</a></li>
-            <li>A: Berzeliigatan 12, Gothenburg</li>
+        <ul class="contact-info">
+            <?php foreach ($contacts as $contact => $value) : ?>
+                <li>
+                    <a href="<?= $value; ?>" target="_blank"><?= $contact; ?></a>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </div>
 </section>
@@ -30,8 +33,9 @@
                 <img src="../images/the-woman-of-samaria.jpeg" alt="">
             </div>
             <div>
-                <p>1860</p>
+                <p class="era">1860</p>
                 <p class="title">The Woman of Samaria</p>
+                <p class="artist">Artist: William Dyce</p>
             </div>
         </div>
 
@@ -51,7 +55,7 @@
             </div>
             <div class="">
                 <p>1901</p>
-                <p class="title">Hope comforting love</p>
+                <p class="title">Hope Comforting Love</p>
             </div>
         </div>
 
@@ -61,7 +65,7 @@
             </div>
             <div>
                 <p>1754</p>
-                <p class="title">The Grotto at Posllipo</p>
+                <p class="title">The Grotto at Posillipo</p>
             </div>
         </div>
 

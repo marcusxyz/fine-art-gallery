@@ -24,7 +24,7 @@
   }
 
   .block-2 p {
-    font-size: var(--h3);
+    font-size: var(--p);
     margin-bottom: 1rem;
     width: 100%;
   }
@@ -40,7 +40,7 @@
 
   .block-4 li,
   .block-4 a {
-    font-size: var(--p-large);
+    font-size: var(--p);
   }
 }
 
@@ -66,7 +66,10 @@
     margin: 0 auto;
   }
 
-  .block-2 p {
+  .block-2 p,
+  .block-4 li,
+  .block-4 a {
+    font-size: var(--h3);
     margin-bottom: 0;
   }
 
@@ -77,18 +80,25 @@
   .block-4 {
     justify-content: flex-end;
   }
+
+  .block-4 li,
+  .block-4 a {
+    font-size: var(--p-large);
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .block-2 {
-    width: 80%;
+    justify-content: center;
   }
 
-  .block-3 {
+  /* .block-3 {
     display: block;
-  }
+    width: 80%;
+  } */
 
   .block-4 {
-    justify-content: flex-start;
+    width: 80%;
+    justify-content: center;
   }
 }

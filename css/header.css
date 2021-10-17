@@ -5,14 +5,19 @@
 
 header nav {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 nav a,
-nav p {
+nav ul li {
   /* font-family: var(--medium); */
   font-size: var(--p-large);
+}
+
+nav ul li {
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media screen and (min-width: 180px) {
