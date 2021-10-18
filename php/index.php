@@ -44,8 +44,9 @@
                 <img src="../images/festive-gathering.jpeg" alt="">
             </div>
             <div>
-                <p>17th century</p>
+                <p class="era">1860</p>
                 <p class="title">Festive Gathering</p>
+                <p class="artist">Artist: William Dyce</p>
             </div>
         </div>
 
@@ -54,8 +55,9 @@
                 <img src="../images/hope-comforting-love.jpeg" alt="">
             </div>
             <div class="">
-                <p>1901</p>
+                <p class="era">1901</p>
                 <p class="title">Hope Comforting Love</p>
+                <p class="artist">Artist: Unknown</p>
             </div>
         </div>
 
@@ -64,8 +66,9 @@
                 <img src="../images/the-grotto-at-posillipo.jpeg" alt="">
             </div>
             <div>
-                <p>1754</p>
+                <p class="era">1754</p>
                 <p class="title">The Grotto at Posillipo</p>
+                <p class="artist">Artist: Unknown</p>
             </div>
         </div>
 
@@ -74,38 +77,43 @@
                 <img src="../images/banquet-still-life.jpeg" alt="">
             </div>
             <div>
-                <p>1664</p>
+                <p class="era">1664</p>
                 <p class="title">Banquet Still Life</p>
+                <p class="artist">Artist: Unknown</p>
+
             </div>
         </div>
 
         <div class="box box-6">
             <div class="frame">
-                <!-- IMG -->
+                <img src="../images/Monte-Civetta.jpeg" alt="">
             </div>
             <div>
-                <p>Era</p>
-                <p class="title">Title</p>
+                <p class="era">1867</p>
+                <p class="title">Monte Civetta</p>
+                <p class="artist">Artist: Elijah Walton</p>
             </div>
         </div>
 
         <div class="box box-7">
             <div class="frame">
-                <!-- IMG -->
+                <img src="../images/the-river-servern-at-shrewsbury.jpeg" alt="">
             </div>
             <div>
-                <p>Era</p>
-                <p class="title">Title</p>
+                <p class="era">1770</p>
+                <p class="title">The River Severn at Shrewsbury</p>
+                <p class="artist">Artist: Paul Sandby</p>
             </div>
         </div>
 
         <div class="box box-8">
             <div class="frame">
-                <!-- IMG -->
+                <img src="../images/sea-lions.jpeg" alt="">
             </div>
             <div>
-                <p>Era</p>
-                <p class="title">Title</p>
+                <p class="era">1788</p>
+                <p class="title">Monte Civetta</p>
+                <p class="artist">Artist: Charles Collins</p>
             </div>
         </div>
     </div>

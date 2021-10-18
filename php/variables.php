@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-$pageTitle = "Berzelii Gallery <br> Dept.";
+$pageTitle = "Berzelii Gallery Dept.";
 
 $indexH1 = "Berzelii Gallery <br> Dept.";
 

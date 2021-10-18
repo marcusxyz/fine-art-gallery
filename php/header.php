@@ -24,9 +24,11 @@
 <body>
     <header>
         <nav>
-            <a href="#"><?= $pageTitle; ?></a>
+            <a href="#"><?= $indexH1; ?></a>
             <ul>
-                <li>Gothenburg, 15 Oct 08:46</li>
+                <li>Gothenburg,
+                    <?= $time; ?>
+                </li>
                 <li>Currently open</li>
             </ul>
         </nav>
