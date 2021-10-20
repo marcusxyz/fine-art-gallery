@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../css/grid.css">
     <link rel="stylesheet" href="../css/screens.css">
     <link rel="stylesheet" href="../css/typography.css">
-
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/hero.css">
     <link rel="stylesheet" href="../css/gallery.css">
@@ -29,7 +28,9 @@
                 <li>Gothenburg,
                     <?= $time; ?>
                 </li>
-                <li>Currently open</li>
+                <li>
+                    <?= StoreOpen($weekday); ?>
+                </li>
             </ul>
         </nav>
         <div class="separator header"></div>

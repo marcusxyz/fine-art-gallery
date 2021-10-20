@@ -3,39 +3,35 @@
 declare(strict_types=1);
 
 date_default_timezone_set('Europe/Stockholm');
-$time = date("M j h:i");
 
-function storeIsOpen()
+
+$time = date("M j H:i"); // Capital H converts to 24h format
+
+$weekday = date('l');
+
+
+
+function StoreOpen(string $weekday)
 {
-    $storeSchedule = [
-        'Mon' => ['09:00' => '17:00'],
-        'Tue' => ['10:00' => '15:00'],
-        'Wed' => ['09:00' => '17:00'],
-        'Thu' => ['09:00' => '17:00'],
-        'Fri' => ['10:00' => '16:00'],
-    ];
+    // https://stackoverflow.com/questions/17974888/opening-hours-in-php
+
+    if ($weekday == "Friday") {
+        $open_from = "10:00";
+        $open_to = "16:00";
+    }
+    if ($weekday == "Saturday") {
+        $open_from = "11:00";
+        $open_to = "15:00";
+    } else {
+        $open_from = "09:00";
+        $open_to = "17:00";
+    }
+
+    if (date("H:i") < $open_from || date("H:i") > $open_to) {
+        echo "<span class=\"dot dot-red\"></span>";
+        echo "Sorry, we're closed";
+    } else {
+        echo "<span class=\"dot dot-green\"></span>";
+        echo "We're currently open";
+    }
 }
-
-// get current timezone
-$timeStamp = time();
-
-// // default status
-// $status = 'closed';
-
-// $currentTime = (new DateTime())->setTimestamp($timestamp);
-
-// // loop through time ranges for current day
-// foreach ($storeSchedule[date('D', $timestamp)] as $startTime => $endTime) {
-
-//     // create time objects from start/end times
-//     $startTime = DateTime::createFromFormat('h:i A', $startTime);
-//     $endTime   = DateTime::createFromFormat('h:i A', $endTime);
-
-//     // check if current time is within a range
-//     if (($startTime < $currentTime) && ($currentTime < $endTime)) {
-//         $status = 'open';
-//         break;
-//     }
-// }
-
-// echo "We are currently: $status";
