@@ -18,6 +18,24 @@ nav ul li {
 nav ul li {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li .dot {
+  width: 8px;
+  height: 8px;
+  /* background-color: var(--black); */
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.dot-green {
+  background-color: #4aa564;
+}
+
+.dot-red {
+  background-color: #cd2026;
 }
 
 @media screen and (min-width: 180px) {

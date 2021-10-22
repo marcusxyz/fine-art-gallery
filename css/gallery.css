@@ -1,6 +1,6 @@
 @media screen and (min-width: 0px) {
   section.gallery {
-    margin: 5rem 0;
+    margin: 4rem 0 0 0;
     padding: 0 0.5rem;
   }
 
@@ -25,12 +25,13 @@
     margin-top: 0;
   }
 
-  p.author {
+  p.artist {
     margin-top: 0.25rem;
   }
 
   .frame {
     position: relative;
+    overflow: hidden;
   }
 
   /* Change aspectratio here */
@@ -67,6 +68,14 @@
 
   .box {
     width: calc(33.333% - 1rem);
+  }
+
+  .box img {
+    transition: transform 1s;
+  }
+
+  .box:hover img {
+    transform: scale(1.04);
   }
 }
 

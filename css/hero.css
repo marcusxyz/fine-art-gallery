@@ -34,10 +34,6 @@
     justify-content: flex-start;
   }
 
-  .block-4 ul {
-    padding: 0;
-  }
-
   .block-4 li,
   .block-4 a {
     font-size: var(--p);
