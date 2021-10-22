@@ -2,6 +2,14 @@
 
 declare(strict_types=1);
 
+// Indexed
+
+$socials = [
+    'Instagram',
+    'Facebook',
+    'LinkedIn',
+];
+
 //Associative
 
 $contacts = [

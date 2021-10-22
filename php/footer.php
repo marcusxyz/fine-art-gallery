@@ -1,4 +1,4 @@
-<section>
+<footer>
     <div class="separator footer"></div>
     <div class="contact-us">
         <h2>Do you want to collaborate with us?</h2>
@@ -9,15 +9,16 @@
     <div class="separator footer"></div>
     <div class="links-and-copyright">
         <ul>
-            <li>
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">LinkedIn</a>
-            </li>
+            <?php foreach ($socials as $social) : ?>
+                <li>
+                    <a href="#"><?= $social; ?></a>
+                </li>
+            <?php endforeach; ?>
         </ul>
-        <p>©2021</p>
+        <p class="contact">For all questions: <a href="<?= $contacts['hello@gallerydept.com']; ?>">hello@gallerydept.com</a></p>
+        <p>&copy; <?= date('Y') ?></p>
     </div>
-</section>
+</footer>
 </body>
 
 </html>
