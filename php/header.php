@@ -1,5 +1,4 @@
 <?php require __DIR__ . ('/variables.php'); ?>
-<?php require __DIR__ . ('/functions.php'); ?>
 <?php require __DIR__ . ('/arrays.php'); ?>
 
 <!DOCTYPE html>
@@ -25,7 +24,7 @@
         <nav>
             <a href="#"><?= $indexH1; ?></a>
             <ul>
-                <li>Gothenburg,
+                <li><?= $city; ?>,
                     <?= $time; ?>
                 </li>
                 <li>

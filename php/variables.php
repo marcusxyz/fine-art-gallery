@@ -2,8 +2,17 @@
 
 declare(strict_types=1);
 
+require __DIR__ . ('/functions.php');
+require __DIR__ . ('/arrays.php');
+
 $pageTitle = "Berzelii Gallery Dept.";
 
 $indexH1 = "Berzelii Gallery <br> Dept.";
 
-$heroDescription = 'A fine art gallery in the heart of Gothenburg. Lorem ipsum dolor sit amet consectetur adipisicing elit, id facere quia mollitia.';
+$city = 'Gothenburg';
+
+$footerContact = 'For all questions: ';
+
+$mail = 'hello@gallerydept.com';
+
+$heroDescription = getHeroDescription('Berzelii Gallery Dept', 'Gothenburg', count($artworks));

@@ -2,9 +2,9 @@
     <div class="separator footer"></div>
     <div class="contact-us">
         <h2>Do you want to collaborate with us?</h2>
-        <button>
+        <a href="mailto:#">
             Submit your work
-        </button>
+        </a>
     </div>
     <div class="separator footer"></div>
     <div class="links-and-copyright">
@@ -15,7 +15,7 @@
                 </li>
             <?php endforeach; ?>
         </ul>
-        <p class="contact">For all questions: <a href="<?= $contacts['hello@gallerydept.com']; ?>">hello@gallerydept.com</a></p>
+        <p class="contact"><?= $footerContact; ?> <a href="<?= $contacts['hello@gallerydept.com']; ?>"><?= $mail; ?></a></p>
         <p>&copy; <?= date('Y') ?></p>
     </div>
 </footer>

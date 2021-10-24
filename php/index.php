@@ -26,14 +26,14 @@
 <section class="gallery">
     <div class="container">
         <?php foreach ($artworks as $artwork) : ?>
-            <a href=<?= $artwork['website']; ?> class="box box-1" target="_blank">
+            <a href=<?= $artwork['website']; ?> class="box" target="_blank">
                 <div class="frame">
                     <img <?= $artwork['image']; ?>>
                 </div>
                 <div>
-                    <p class="era"><?= $artwork['era']; ?></p>
                     <p class="title"><?= $artwork['title']; ?></p>
                     <p class="artist"><?= $artwork['artist']; ?></p>
+                    <p class="era"><?= $artwork['era']; ?></p>
                 </div>
             </a>
         <?php endforeach; ?>

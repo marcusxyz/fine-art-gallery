@@ -15,17 +15,13 @@
     width: calc(100% - 1rem);
   }
 
-  p.era {
-    /* font-size: var(--p-small); */
+  div p.title {
+    font-size: var(--h3);
     margin-top: 1rem;
   }
 
-  div p.title {
-    font-size: var(--h3);
-    margin-top: 0;
-  }
-
-  p.artist {
+  p.artist,
+  p.era {
     margin-top: 0.25rem;
   }
 

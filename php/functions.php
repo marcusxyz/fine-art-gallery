@@ -2,26 +2,32 @@
 
 declare(strict_types=1);
 
-date_default_timezone_set('Europe/Stockholm');
+// Function for description
 
+function getHeroDescription(string $titleBrand, string $city, int $artworks): string
+{
+    return "$titleBrand is a fine art gallery in the heart of $city. There's a total of $artworks paintings listed for sale.";
+}
+
+// Function for opening hours
+
+date_default_timezone_set('Europe/Stockholm');
 
 $time = date("M j H:i"); // Capital H converts to 24h format
 
 $weekday = date('l');
 
-
-
 function StoreOpen(string $weekday)
 {
-    // https://stackoverflow.com/questions/17974888/opening-hours-in-php
-
     if ($weekday == "Friday") {
         $open_from = "10:00";
         $open_to = "16:00";
-    }
-    if ($weekday == "Saturday") {
+    } elseif ($weekday == "Saturday") {
         $open_from = "11:00";
         $open_to = "15:00";
+    } elseif ($weekday == "Sunday") {
+        $open_from = "00:00";
+        $open_to = "00:00";
     } else {
         $open_from = "09:00";
         $open_to = "17:00";

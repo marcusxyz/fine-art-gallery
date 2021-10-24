@@ -48,6 +48,10 @@ li {
   list-style-type: none;
 }
 
+li:hover a {
+  text-decoration: underline;
+}
+
 header,
 section,
 footer {
@@ -56,5 +60,5 @@ footer {
 
 .separator {
   width: 100%;
-  border-top: 1px solid var(--black);
+  border-top: 0.0625rem solid var(--black);
 }
