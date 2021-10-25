@@ -2,14 +2,30 @@
 
 # Fine art gallery
 
-The aim of this project is to show some fine art made by various artists around the globe. 
-More information coming soon.
+> This is my first PHP school project.
 
-# Installation
+The aim of this project is to create a fictional gallery website and showcase some fine art made by various artists around the globe.
+Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery/)
 
-Add the installation instructions.
+## Getting started
 
-# Code Review
+### Clone this repo via terminal
+
+1. Clone this repo to your desired folder
+
+```bash
+git clone https://github.com/marcusxyz/fine-art-gallery.git
+```
+
+2. Start a local server
+
+```bash
+php -S localhost:8000
+```
+
+3. Open [http://localhost:8000/php/index.php](http://localhost:8000/php/index.php) in your browser of choice
+
+## Code Review
 
 Code review written by [Emma Ramstedt](https://github.com/Deliciaes).
 
@@ -19,9 +35,14 @@ Code review written by [Emma Ramstedt](https://github.com/Deliciaes).
 4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
 5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
 
-# Testers
+## Testers
 
 Tested by the following people:
 
-1. Jane Doe
+1. Oliver Davis
 2. John Doe
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more
+details.
