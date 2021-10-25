@@ -5,21 +5,19 @@
 > This is my first PHP school project.
 
 The aim of this project is to create a fictional gallery website and showcase some fine art made by various artists around the globe.
-Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery/)
+Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery/).
 
 ## Getting started
 
-### Clone this repo via terminal
-
 1. Clone this repo to your desired folder
 
-```bash
+```
 git clone https://github.com/marcusxyz/fine-art-gallery.git
 ```
 
 2. Start a local server
 
-```bash
+```
 php -S localhost:8000
 ```
 
