@@ -9,19 +9,19 @@ Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery
 
 ## Getting started
 
-1. Clone this repo to your desired folder
+1. #### Clone this repo to your desired folder
 
-```
-git clone https://github.com/marcusxyz/fine-art-gallery.git
-```
+    ```
+    git clone https://github.com/marcusxyz/fine-art-gallery.git
+    ```
 
-2. Start a local server
+2. #### Start a local server
 
-```
-php -S localhost:8000
-```
+    ```
+    php -S localhost:8000
+    ```
 
-3. Open [http://localhost:8000/php/index.php](http://localhost:8000/php/index.php) in your browser of choice
+3. #### Open [http://localhost:8000/php/index.php](http://localhost:8000/php/index.php) in your browser of choice
 
 ## Code Review
 
