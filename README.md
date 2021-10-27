@@ -37,8 +37,8 @@ Code review written by [Emma Ramstedt](https://github.com/Deliciaes).
 
 Tested by the following people:
 
-1. Oliver Davis
-2. John Doe
+1. [Oliver Davis](https://github.com/DavisDavisDavis)
+2. [Susanne Lam](https://github.com/s0wie)
 
 ## License
 
