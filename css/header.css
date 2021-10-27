@@ -1,8 +1,3 @@
-/* header {
-  display: flex;
-  width: 100%;
-} */
-
 header nav {
   display: flex;
   align-items: flex-start;
@@ -11,7 +6,6 @@ header nav {
 
 nav a,
 nav ul li {
-  /* font-family: var(--medium); */
   font-size: var(--p-large);
 }
 
@@ -24,25 +18,24 @@ nav ul li {
 nav ul li .dot {
   width: 8px;
   height: 8px;
-  /* background-color: var(--black); */
   border-radius: 50%;
   display: inline-block;
   margin-right: 0.5rem;
 }
 
 .dot-green {
-  background-color: #4aa564;
+  background-color: #4aa564; /* Good green for accessability */
 }
 
 .dot-red {
-  background-color: #cd2026;
+  background-color: #cd2026; /* Good red for accessability */
 }
 
-@media screen and (min-width: 180px) {
-  header .separator {
-    margin: 2rem 0 2rem 0;
-  }
+header .separator {
+  margin: 2rem 0 2rem 0;
 }
+
+/*--- TABLET & DESKTOP ---*/
 
 @media screen and (min-width: 860px) {
   header .separator {

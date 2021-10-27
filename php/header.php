@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
             <a href="#"><?= $indexH1; ?></a>
             <ul>
                 <li><?= $city; ?>,

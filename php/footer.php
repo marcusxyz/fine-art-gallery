@@ -1,10 +1,8 @@
 <footer>
     <div class="separator footer"></div>
     <div class="contact-us">
-        <h2>Do you want to collaborate with us?</h2>
-        <a href="mailto:#">
-            Submit your work
-        </a>
+        <h2><?= $submits['title']; ?></h2>
+        <a href="<?= $submits['link']; ?>"><?= $submits['button-text']; ?></a>
     </div>
     <div class="separator footer"></div>
     <div class="links-and-copyright">

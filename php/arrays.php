@@ -7,7 +7,6 @@ declare(strict_types=1);
 $socials = [
     'Instagram',
     'Facebook',
-    'LinkedIn',
 ];
 
 //Associative
@@ -16,6 +15,12 @@ $contacts = [
     '031-123-45-67' => 'tel:031-123-45-67',
     'hello@gallerydept.com' => 'mailto:hello@gallerydept.com',
     'Berzeliigatan 14, Gothenburg' => 'https://www.google.com/maps/place/Berzeliigatan,+G%C3%B6teborg/@57.6986432,11.9798977,17z/data=!3m1!4b1!4m5!3m4!1s0x464ff376e0f89283:0x1866c1dc8d53f05d!8m2!3d57.6986432!4d11.9820864',
+];
+
+$submits = [
+    'title' => 'Do you want to collaborate with us?',
+    'link' => 'mailto:hello@gallerydept.com',
+    'button-text' => 'Submit your work',
 ];
 
 //Multidimensional
@@ -29,7 +34,7 @@ $artworks = [
         'website' => 'https://unsplash.com/photos/SotAF3SBFZ0',
     ],
     [
-        'image' => "src='../images/the-grotto-at-posillipo.jpeg' alt='test'",
+        'image' => "src='../images/the-grotto-at-posillipo.jpeg' alt='Ruined home in a mediterrainian country'",
         'era' => 1779,
         'title' => 'The Grotto at Posillipo',
         'artist' => 'Artist: William Pars',
@@ -50,7 +55,7 @@ $artworks = [
         'website' => 'https://unsplash.com/photos/pLW5YUSBKqo',
     ],
     [
-        'image' => "src='../images/monte-civetta.jpeg' alt='Landscape art of a lake and a mountain'",
+        'image' => "src='../images/monte-civetta.jpeg' alt='A beautiful landscape of a lake and a mountain in the background'",
         'era' => 1867,
         'title' => 'Monte Civetta',
         'artist' => 'Artist: Elijah Walton',

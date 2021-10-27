@@ -1,44 +1,44 @@
-@media screen and (min-width: 180px) {
-  section.hero {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.5rem;
-    flex-direction: column;
-  }
-
-  .hero h1 {
-    margin-bottom: 2rem;
-    line-height: 1;
-  }
-
-  .block-1,
-  .block-2,
-  .block-4 {
-    width: 100%;
-    padding: 0.5rem;
-  }
-
-  .block-2 p,
-  .block-4 li {
-    line-height: 1.4;
-  }
-
-  .block-2 p {
-    font-size: var(--p);
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-
-  .block-4 {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .block-4 li,
-  .block-4 a {
-    font-size: var(--p);
-  }
+section.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  flex-direction: column;
 }
+
+.hero h1 {
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.block-1,
+.block-2,
+.block-4 {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.block-2 p,
+.block-4 li {
+  line-height: 1.4;
+}
+
+.block-2 p {
+  font-size: var(--p);
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.block-4 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.block-4 li,
+.block-4 a {
+  font-size: var(--p);
+}
+
+/*--- TABLET ---*/
 
 @media screen and (min-width: 960px) {
   header,
@@ -83,15 +83,12 @@
   }
 }
 
+/*--- DESKTOP ---*/
+
 @media screen and (min-width: 1440px) {
   .block-2 {
     justify-content: center;
   }
-
-  /* .block-3 {
-    display: block;
-    width: 80%;
-  } */
 
   .block-4 {
     width: 80%;
