@@ -20,7 +20,6 @@
 .contact-us a {
   background: none;
   padding: 1rem 2rem;
-  /* background-color: var(--black); */
   font-size: var(--p-large);
   color: var(--black);
   border: 1px solid var(--black);

@@ -1,6 +1,9 @@
 <?php require __DIR__ . ('/header.php'); ?>
 
 <main>
+
+    <!-- HERO SECTION -->
+
     <section class="hero" role="banner">
         <div class="hero block-1">
             <h1>
@@ -23,6 +26,8 @@
             </ul>
         </div>
     </section>
+
+    <!-- GALLERY SECTION -->
 
     <section class="gallery">
         <div class="container" id="artworks">

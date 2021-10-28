@@ -1,3 +1,5 @@
+<!-- FOOTER SECTION -->
+
 <footer>
     <div class="separator footer"></div>
     <div class="contact-us">

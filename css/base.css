@@ -1,3 +1,5 @@
+/*--- VARIABLES ---*/
+
 :root {
   /* Colors */
   --white: #fff;
@@ -18,6 +20,8 @@
   --p-small: 0.875rem;
   --p-large: 1.125rem;
 }
+
+/*--- GENERAL ---*/
 
 * {
   box-sizing: border-box;

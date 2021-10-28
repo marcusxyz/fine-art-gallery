@@ -21,8 +21,11 @@
 </head>
 
 <body>
+
+    <!-- NAV SECTION -->
+
     <header>
-        <nav role="navigation">
+        <nav>
             <a href="#"><?= $indexH1; ?></a>
             <ul>
                 <li><?= $city; ?>,

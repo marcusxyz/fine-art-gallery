@@ -17,7 +17,7 @@ $time = date("M j H:i"); // Capital H converts to 24h format
 
 $weekday = date('l');
 
-function StoreOpen(string $weekday)
+function StoreOpen(string $weekday): void
 {
     if ($weekday == "Friday") {
         $open_from = "10:00";
