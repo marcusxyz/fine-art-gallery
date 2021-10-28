@@ -4,7 +4,7 @@
 
 > This is my first PHP school project.
 
-The aim of this project is to create a fictional gallery website and showcase some fine art made by various artists around the globe.
+The aim of this project is to make use of all the PHP fundamentals I've learned so far, such as using variables, data types, loops, functions and etc. The idea for this project was to create a fictional gallery website that showcases some fine art.
 Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery/).
 
 ## Getting started
