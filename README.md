@@ -27,11 +27,11 @@ Check out the live website [here](https://marcushagerstrand.com/fine-art-gallery
 
 Code review written by [Emma Ramstedt](https://github.com/Deliciaes).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `variables.php:10-31` - Some keys contain the same data, for example the $mail variable and the email in the $contacts array contain the same information. Consider pulling the data from one source.
+2. `functions.php:10-31` - Consider avoiding using HTML inside PHP (example: echo "<span class=\"dot dot-red\"></span>";).
+3. `General:10-31` - Consider separating the header, index and footer files from the php folder.
+4. `General:10-31` - For better accessibility, consider making clickable links stick out more from regular text.
+5. `General:10-31` - Some files are missing, specifically grid.ss, screens.css, monte-civetta.jpeg
 
 ## Testers
 
